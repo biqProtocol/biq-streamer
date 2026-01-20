@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./types",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "lib": ["esnext"],
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["test", "dist"]
+}
